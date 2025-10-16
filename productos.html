@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ofertas de Salchichas Coreanas | K-Salchichas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #fff8f8, #ffecec);
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      transition: filter 0.3s ease;
+    }
+
+    .offer-price {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #e63946;
+    }
+
+    .original-price {
+      text-decoration: line-through;
+      color: #6c757d;
+      margin-left: 8px;
+    }
+
+    .card {
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+      border-radius: 15px;
+    }
+
+    .card:hover {
+      animation: bounce 0.5s ease;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      30% { transform: translateY(-8px) scale(1.03); }
+      50% { transform: translateY(0); }
+      70% { transform: translateY(-4px); }
+      100% { transform: translateY(0); }
+    }
+
+    .card:hover .card-img-top {
+      filter: brightness(1.1);
+    }
+
+    .btn {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border-radius: 10px;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .card {
+      animation: fadeIn 0.8s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">🇰🇷 K-Salchichas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Productos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h1 class="display-4 text-danger">🔥 ¡Súper Ofertas Coreanas! 🔥</h1>
+      <p class="lead text-secondary">Descubre el auténtico sabor callejero de Corea, ahora más cerca de ti.</p>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-danger">
+        <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2024/09/hot-dof-coreanoo-780x484.jpg" class="card-img-top" alt="Hot Dog Coreano Clásico">
+        <div class="card-body">
+          <span class="badge bg-danger mb-2">20% OFF</span>
+          <h5 class="card-title">Mozza Hot Dog Clásico</h5>
+          <p class="card-text">Salchicha de res con mozzarella fundida y crujiente empanizado.</p>
+          <div><span class="offer-price">$4.00</span> <span class="original-price">$5.00</span></div>
+          <a href="#" class="btn btn-danger w-100 mt-2">🛒 Comprar Ahora</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-primary">
+        <img src="https://www.cocinavital.mx/wp-content/uploads/2022/06/como-hacer-banderillas-coreanas.jpg" class="card-img-top" alt="Salchicha con Patatas">
+        <div class="card-body">
+          <span class="badge bg-primary mb-2">¡2x1 en la segunda unidad!</span>
+          <h5 class="card-title">Potato Corndog Premium</h5>
+          <p class="card-text">Cubierto con trozos de patata frita para una textura extra crujiente.</p>
+          <div><span class="offer-price">$6.50</span></div>
+          <a href="#" class="btn btn-primary w-100 mt-2">🛒 Ver Promoción</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-success">
+        <img src="https://animalgourmet.com/wp-content/uploads/2023/09/Comida-coreana.jpg" class="card-img-top" alt="Combo Picante">
+        <div class="card-body">
+          <span class="badge bg-success mb-2">Ahorra $3.00</span>
+          <h5 class="card-title">Combo Sabor Fuego (5 unidades)</h5>
+          <p class="card-text">Mini salchichas con toques de gochujang (pasta de chile coreana).</p>
+          <div><span class="offer-price">$18.00</span> <span class="original-price">$21.00</span></div>
+          <a href="#" class="btn btn-success w-100 mt-2">🛒 Añadir al Carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-warning">
+        <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2024/04/salchichas-encebolladas-1024x683.jpg" class="card-img-top" alt="Cheddar Lover">
+        <div class="card-body">
+          <span class="badge bg-warning text-dark mb-2">Nuevo sabor</span>
+          <h5 class="card-title">Cheddar Lover Stick</h5>
+          <p class="card-text">Relleno de queso cheddar derretido y cubierto de panko dorado.</p>
+          <div><span class="offer-price">$5.75</span></div>
+          <a href="#" class="btn btn-warning w-100 mt-2">🧀 ¡Lo Quiero!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-info">
+        <img src="https://i.blogs.es/fec84a/1366_2000-2-/1366_2000.jpg" class="card-img-top" alt="Doble Mozzarella">
+        <div class="card-body">
+          <span class="badge bg-info text-dark mb-2">Edición limitada</span>
+          <h5 class="card-title">Double Mozza Dog</h5>
+          <p class="card-text">Dos capas de mozzarella fundida. Perfecto para los amantes del queso.</p>
+          <div><span class="offer-price">$6.00</span></div>
+          <a href="#" class="btn btn-info w-100 mt-2">🧀 Añadir al carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-secondary">
+        <img src="https://cecinasllanquihue.cl/blog/wp-content/uploads/2022/01/shutterstock_551495311-1200x600.png" class="card-img-top" alt="Combo Familiar">
+        <div class="card-body">
+          <span class="badge bg-secondary mb-2">Oferta familiar</span>
+          <h5 class="card-title">Combo K-Family (8 unidades)</h5>
+          <p class="card-text">Perfecto para compartir. Incluye varias salsas coreanas.</p>
+          <div><span class="offer-price">$25.00</span> <span class="original-price">$30.00</span></div>
+          <a href="#" class="btn btn-secondary w-100 mt-2">👨‍👩‍👧 Comprar Combo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-danger">
+        <img src="https://cecinasllanquihue.cl/blog/wp-content/uploads/2022/01/shutterstock_2059575944-1024x576.png" class="card-img-top" alt="Hot Dog dulce">
+        <div class="card-body">
+          <span class="badge bg-danger mb-2">Edición Dulce</span>
+          <h5 class="card-title">Sweet & Mozza</h5>
+          <p class="card-text">Salchicha con queso y un toque de azúcar glas. ¡Una mezcla sorprendente!</p>
+          <div><span class="offer-price">$4.50</span></div>
+          <a href="#" class="btn btn-danger w-100 mt-2">🍭 ¡Pruébalo!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-success">
+        <img src="https://cecinasllanquihue.cl/blog/wp-content/uploads/2022/01/shutterstock_1504536650-1024x576.png" class="card-img-top" alt="Veggie Corndog">
+        <div class="card-body">
+          <span class="badge bg-success mb-2">100% Vegetariano</span>
+          <h5 class="card-title">Veggie Corndog</h5>
+          <p class="card-text">Preparado con proteína vegetal y queso vegano. ¡Igual de delicioso!</p>
+          <div><span class="offer-price">$5.00</span></div>
+          <a href="#" class="btn btn-success w-100 mt-2">🌱 Añadir al carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-warning">
+        <img src="https://cecinasllanquihue.cl/blog/wp-content/uploads/2022/01/shutterstock_1751143595-1024x576.png" class="card-img-top" alt="Mini Corndogs">
+        <div class="card-body">
+          <span class="badge bg-warning text-dark mb-2">Pack divertido</span>
+          <h5 class="card-title">Mini K-Dogs (10 unidades)</h5>
+          <p class="card-text">Mini salchichas perfectas para fiestas o eventos.</p>
+          <div><span class="offer-price">$12.00</span></div>
+          <a href="#" class="btn btn-warning w-100 mt-2">🎉 Comprar Pack</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm border-primary">
+        <img src="https://cecinasllanquihue.cl/blog/wp-content/uploads/2022/01/shutterstock_1293055309-1024x576.png" class="card-img-top" alt="Deluxe Combo">
+        <div class="card-body">
+          <span class="badge bg-primary mb-2">Más vendido</span>
+          <h5 class="card-title">Deluxe Street Combo</h5>
+          <p class="card-text">Incluye 3 tipos de corndogs, papas fritas y bebida coreana.</p>
+          <div><span class="offer-price">$15.99</span></div>
+          <a href="#" class="btn btn-primary w-100 mt-2">⭐ Comprar Ahora</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row my-5">
+    <div class="col-12 text-center">
+      <p class="text-muted">🎁 Promociones válidas hasta el <strong>20 de octubre</strong> o hasta agotar existencias.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 K-Salchichas | Todos los derechos reservados.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
