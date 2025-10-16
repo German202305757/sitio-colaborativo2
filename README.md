@@ -5,4 +5,4 @@
 ## German  - Ofertas
 ## Lennin - Ubicaciones
 ## Pablo - Index
-## Alvaro - Productos
+## Pablo - Productos (15/10/2025)
